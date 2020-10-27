@@ -9,6 +9,7 @@
     } 
 
     class User implements Account{
+        
         protected $full_name;
         protected $city;
         protected $email;
