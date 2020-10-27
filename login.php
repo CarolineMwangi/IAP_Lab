@@ -3,6 +3,7 @@
 	include 'process.php';
 
 	$con = new DBConnector();
+
     $pdo = $con->connectToDB();
 	
 	if(isset($_POST['login'])){
