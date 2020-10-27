@@ -5,6 +5,7 @@
     $pdo = $con->connectToDB();
     if(isset($_POST['register']))
     {
+	    
         $full_name = $_POST['full_name'];
         $city = $_POST['city'];
         $email = $_POST['email'];
