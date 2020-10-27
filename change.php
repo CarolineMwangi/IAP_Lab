@@ -18,7 +18,7 @@
 
             $message = $user->changePassword($pdo);
             echo $message;
-            // header("Location: /Simple-UI/templates/index.php");
+           
         }else {
             echo "Passwords don't match";
         }
