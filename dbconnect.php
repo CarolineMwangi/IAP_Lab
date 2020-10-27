@@ -1,6 +1,7 @@
 <?php
     include_once 'util.php';	
     class DBConnector {
+        
         var $pdo;
         function __construct(){
                 $dsn= "mysql:host=". Util::$SERVER_NAME . ";dbname=" . Util::$DB_NAME ."";
