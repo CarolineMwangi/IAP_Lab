@@ -25,6 +25,14 @@
         header("Location: change.php");
     }
 
+     if(isset($_POST['order'])){
+        header("Location: order.php");
+    }
+
+    if(isset($_POST['status'])){
+        header("Location: status.php");
+    }
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -48,6 +56,8 @@
     <form action="" method="post">
     <input type="submit" name="change" value="Change password">
     <input type="submit" name="logout" value="Logout">
+    <input type="submit" name="order" value="ORDER AN ITEM">
+    <input type="submit" name="status" value="CHECK ORDER STATUS">
     </form>
    
 </body>
